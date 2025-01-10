@@ -119,6 +119,8 @@ const buyMaxQuantity = (id) => {
     updateAmount(id);
 
     localStorage.setItem("basket", JSON.stringify(basket));
+
+    generateCartItems();
 }
 
 // Method to decrease the amount of a desired product
