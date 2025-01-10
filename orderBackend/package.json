@@ -1,0 +1,24 @@
+{
+  "name": "orderbackend",
+  "version": "1.0.0",
+  "main": "orderServer.js",
+  "scripts": {
+    "start": "node orderServer.js",
+    "dev": "nodemon orderServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "kafkajs": "^2.2.4",
+    "orderbackend": "file:",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
